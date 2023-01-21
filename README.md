@@ -25,6 +25,9 @@ echo "メールアドレス"|ironfish faucet
 
 の"メールアドレス"を登録したメールアドレスに変更
 
-bash irontask.sh
+tmux new -s ironfish
 
-で実行
+でtmuxを実行
+
+bash irontask.sh
+で自動実行スタート
