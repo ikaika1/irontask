@@ -2,6 +2,9 @@
 
 使い方
 
+
+
+
 必要なソフトをインストール
 
 sudo apt install tmux
