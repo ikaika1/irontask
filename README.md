@@ -24,3 +24,7 @@ sudo nano irontask.sh
 echo "メールアドレス"|ironfish faucet
 
 の"メールアドレス"を登録したメールアドレスに変更
+
+bash irontask.sh
+
+で実行
