@@ -8,5 +8,5 @@ expect \"? Select the asset you wish to burn (Use arrow keys)\"
 send  \"\n\"
 expect eof
 "
-
+sleep 10
 exit 0
