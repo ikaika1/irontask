@@ -16,7 +16,7 @@ sleep 300
 #wallet faucet
 echo "メールアドレス"|ironfish faucet
 # 1week
-sleep 604000
+sleep 603870
 i=`expr $i + 1`
     
 done
