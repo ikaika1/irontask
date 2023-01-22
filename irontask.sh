@@ -5,7 +5,7 @@ while [ $i -lt 500 ]
 do
 
 # mint
-ironfish wallet:mint --name=$(ironfish config:get blockGraffiti | tr -d '"') --metadata="metadata" --fee="0.00000001" --amount=1 --confirm
+ironfish wallet:mint --name=$(ironfish config:get blockGraffiti | tr -d '"') --metadata="metadata" --fee="0.00000001" --amount=100 --confirm
 sleep 300
 # burn
 bash burn.sh
