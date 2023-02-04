@@ -22,7 +22,9 @@ sudo nano irontask.sh
 それぞれのファイルの該当箇所を入力
 
 sudo nano burn.sh
+
 sudo nano send.sh
+
 sudo nano faucet.sh
 
 tmux new -s ironfish
