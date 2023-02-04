@@ -19,11 +19,7 @@ cd irontask
 
 sudo nano irontask.sh
 
-ファイルの中の
-#wallet faucet
-echo "メールアドレス"|ironfish faucet
-
-の"メールアドレス"を登録したメールアドレスに変更
+それぞれのファイルの該当箇所を入力
 
 tmux new -s ironfish
 
