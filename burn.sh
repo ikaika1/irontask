@@ -1,12 +1,6 @@
-#!/usr/bin/expect
+#!/bin/bash
 
 # burn
-expect -c "
-set timeout 3
-spawn ironfish wallet:burn --fee="0.00000001" --amount=1  --confirm
-expect \"? Select the asset you wish to burn (Use arrow keys)\"
-send  \"\n\"
-expect eof
-"
 
-exit 0
+ironfish wallet:burn --assetId=バーンしたいウォレットアドレスに置き換え --fee="0.00000001" --amount=1  --confirm
+
